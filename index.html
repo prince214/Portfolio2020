@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6b76ab8c8d.js" crossorigin="anonymous"></script>
     
     <title>Prince Paraste</title>
@@ -18,6 +20,17 @@
   
 
 <style type="text/css">
+
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  #work h2{
+    font-family: 'Montserrat', sans-serif;
+  }
+  h2,h3{
+    font-family: 'Krona One', sans-serif;
+  }
+
   
 /* Work Gallery  */
 .hovereffect {
@@ -47,7 +60,8 @@
   display: block;
   position: relative;
   max-width: none;
-  width: calc(100% + 60px);
+  width: calc(100% + 40px);
+  height: calc(75% + 80px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
   -webkit-transform: translate3d(-40px,0,0);
@@ -107,10 +121,35 @@
 
 
 
+.project_all{
+  background-image: url('images/2.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.project_todolist{
+  background-image: url('images/todo1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-
+.project_wordpress{
+  background-image: url('images/agency.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project_codeforcoder{
+  background-image: url('images/codeforcoder.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 </style>
+
+
 
 
   
@@ -177,7 +216,7 @@
                 <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
                     <div class="about-text-left">
                         <h2>Prince Paraste</h2> 
-                        <h3>PHP DEVELOPER</h3> 
+                        <h4>PHP DEVELOPER</h4> 
                         <p>I am a WordPress &amp; Front-end Developer, working for the last five years. I have experience working with local clients along with clients from all around the world. I have vast knowledge in html, css, Javascript , JQuery, Laravel, Codeingiter, Drupal (PHP framewoks), wordpress theme development and so on. </p>
                         <a  class="btn btn-primary" href="images/about/demo-cv.jpg" download="">Download CV &nbsp; &nbsp;<i class="fa fa-download"></i></a>
                     </div>
@@ -355,24 +394,24 @@
   <div class="row p-5">
     
 
-    <div class="col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+    <div class="col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#codeforcoder">
     <div class="hovereffect">
-        <img class="img-responsive" src="images/2.jpeg" alt="">
+        <img class="img-responsive" src="images/codeforcoder.png" alt="">
             <div class="overlay">
-                <h2>Effect 11</h2>
+                <h2>Codeforcoder</h2>
         <p>
-          <a href="#">LINK HERE</a>
+          <a href="wwww.codeforcoder.com">Visit Here</a>
         </p>
             </div>
     </div>
 </div>
 
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<!-- Modal codeforcoder -->
+<div class="modal fade bd-example-modal-lg" id="codeforcoder" tabindex="-1" role="dialog" aria-labelledby="codeforcoderTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Project 1</h5>
+        <h5 class="modal-title" id="CVMaker">Codeforcoder</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -382,26 +421,18 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-sm-6 project_1">
-              <style type="text/css">
-                .project_1{
-                  background-image: url('images/2.jpeg');
-                  background-position: center;
-                  background-size: cover;
-                  background-repeat: no-repeat;
-                }
-              </style>
+            <div class="col-sm-6 project_codeforcoder">
             </div>
 
             <div class="col-sm-6">
               <div class="row">
               <div class="col-sm-12">
-                <p>faf adf asdfasdf asd asd s fs af fs faf adf asdfasdf asd asd s fs af fs faf adf asdfasdf asd asd s fs af fs faf adf asdfasdf asd asd s  </p>
+                <p>CodeforCoder is a platform where student can learn and improve their knowledge. We provide Contents like PPT, MCQs, Programs/Codes etc.</p>
               </div>
               <div class="col-sm-12">
-                <div class="project-d"><b>Client: </b> asdfasd</div>
-                <div class="project-d"><b>Type: </b> asdfasd</div>
-                <div class="project-d"><b>Completed: </b> asdfasd</div>
+                <div class="project-d"><b>Tech Used: </b> HTML/CSS, MaterialCSS, Bootstrap, SendGrid, Disqus API, Google Analytics</div>
+                <div class="project-d"><b>Type: </b> Live</div>
+                <div class="project-d"><b>Website: </b> www.codeforcoder.com</div>
               </div>
               
               </div>
@@ -414,64 +445,262 @@
   </div>
 </div>
 
-<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#cv_maker">
     <div class="hovereffect">
         <img class="img-responsive" src="images/3.jpg" alt="">
             <div class="overlay">
-                <h2>Effect 11</h2>
+                <h2>CV Maker</h2>
         <p>
-          <a href="#">LINK HERE</a>
+          <a href="#">Visit HERE</a>
         </p>
             </div>
     </div>
 </div>
 
-<div class="col-md-4 col-sm-6 col-xs-12">
+<!-- Modal CVMaker -->
+<div class="modal fade bd-example-modal-lg" id="cv_maker" tabindex="-1" role="dialog" aria-labelledby="cv_makerTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cv_maker">CV Maker</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-6 project_all">
+            </div>
+
+           <div class="col-sm-6">
+              <div class="row">
+              <div class="col-sm-12">
+                <p>CV maker is a light weight module which can be quicky integrated to any core PHP website. It lets user to create simple and minimal Resume for interviews. Just fill series of form that will ask some personal information about you and Volia ....<br> Your Resume is ready!!!</p>
+              </div>
+              <div class="col-sm-12">
+                <div class="project-d"><b>Tech Used: </b> HTML/CSS, Bootstrap, PHP, api2pdf</div>
+                <div class="project-d"><b>Type: </b> Live</div>
+                <div class="project-d"><b>Website: </b> www.00webhost.com</div>
+              </div>
+              
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#vue_quiz_app">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/quiz1.png" alt="">
+            <div class="overlay">
+                <h2>Vue Quiz App</h2>
+        <p>
+          <a href="#">Visit here</a>
+        </p>
+            </div>
+    </div>
+</div>
+
+<!-- Modal VueQuizApp -->
+<div class="modal fade bd-example-modal-lg" id="vue_quiz_app" tabindex="-1" role="dialog" aria-labelledby="vue_quiz_appTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="vue_quiz_app">Vue Quiz App</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-6">
+              <img src="images/quiz1.png" width="300px" >
+            </div>
+
+           <div class="col-sm-6">
+              <div class="row">
+              <div class="col-sm-12">
+                <p>Vue Quiz App is a small standalone one page application. Its is web app which ask user a series of 10 questions and give score out of 10. </p>
+              </div>
+              <div class="col-sm-12">
+                <div class="project-d"><b>Tech Used: </b>HTML/CSS, vue.js, API</div>
+                <div class="project-d"><b>Type: </b> Github</div>
+                <div class="project-d"><b>Website: </b> www.00webhost.com</div>
+              </div>
+              
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#todolist">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/todo1.png" alt="">
+            <div class="overlay">
+                <h2>TodoList</h2>
+        <p>
+          <a href="#">Visit here</a>
+        </p>
+            </div>
+    </div>
+</div>
+
+<!-- Modal TodoList -->
+<div class="modal fade bd-example-modal-lg" id="todolist" tabindex="-1" role="dialog" aria-labelledby="todolistTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="todolist">Todo List</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-6 project_todolist">
+            </div>
+
+           <div class="col-sm-6">
+              <div class="row">
+              <div class="col-sm-12">
+                <p>TodoList is a javascript application by which user can add tasks, mark them as completed, unmark them, delete them. User can even create there own boards in the list. Its uses session functionality so the user has to login before adding any new task.</p>
+              </div>
+              <div class="col-sm-12">
+                <div class="project-d"><b>Tech Used: </b>HTML/CSS, Bootstrap, Javascript</div>
+                <div class="project-d"><b>Type: </b> Github</div>
+                <div class="project-d"><b>Website: </b> www.00webhost.com</div>
+              </div>
+              
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-6 col-xs-12"  data-toggle="modal" data-target="#html_to_wordpress">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/agency.png" alt="">
+            <div class="overlay">
+                <h2>HTML to Wordpress</h2>
+        <p>
+          <a href="#">Visit here</a>
+        </p>
+            </div>
+    </div>
+</div>
+
+<!-- Modal HTML_to_Wordpress -->
+<div class="modal fade bd-example-modal-lg" id="html_to_wordpress" tabindex="-1" role="dialog" aria-labelledby="html_to_wordpressTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="html_to_wordpress">HTML to Wordpress</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-6 project_wordpress">
+            </div>
+
+           <div class="col-sm-6">
+              <div class="row">
+              <div class="col-sm-12">
+                <p>I converted a bootstrap html website to wordpress. User can change anything from the wordpress admin panel as everything in the website is dynamic. I used ACF(Advanced Custom Fields) to make fields so that user can dynamically shape the website according to himself.</p>
+              </div>
+              <div class="col-sm-12">
+                <div class="project-d"><b>Tech Used: </b>HTML/CSS, Bootstrap, Wordpress, ACF Plugin</div>
+                <div class="project-d"><b>Type: </b> Github</div>
+                <div class="project-d"><b>Website: </b> www.github/prince214.com</div>
+              </div>
+              
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-6 col-xs-12" data-toggle="modal" data-target="#lms_admin_panel">
     <div class="hovereffect">
         <img class="img-responsive" src="images/4.jpg" alt="">
             <div class="overlay">
-                <h2>Effect 11</h2>
+                <h2>LMS Admin Panel</h2>
         <p>
-          <a href="#">LINK HERE</a>
+          <a href="#">Vist here</a>
         </p>
             </div>
     </div>
 </div>
 
- <div class="col-md-4 col-sm-6 col-xs-12">
-    <div class="hovereffect">
-        <img class="img-responsive" src="images/2.jpeg" alt="">
-            <div class="overlay">
-                <h2>Effect 11</h2>
-        <p>
-          <a href="#">LINK HERE</a>
-        </p>
-            </div>
-    </div>
-</div>
+<!-- Modal LMS Admin Panel -->
+<div class="modal fade bd-example-modal-lg" id="lms_admin_panel" tabindex="-1" role="dialog" aria-labelledby="lms_admin_panelTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="lms_admin_panel">LMS Admin Panel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="container">
+          <div class="row">
 
-<div class="col-md-4 col-sm-6 col-xs-12">
-    <div class="hovereffect">
-        <img class="img-responsive" src="images/3.jpg" alt="">
-            <div class="overlay">
-                <h2>Effect 11</h2>
-        <p>
-          <a href="#">LINK HERE</a>
-        </p>
+            <div class="col-sm-6 project_all">
             </div>
-    </div>
-</div>
 
-<div class="col-md-4 col-sm-6 col-xs-12">
-    <div class="hovereffect">
-        <img class="img-responsive" src="images/4.jpg" alt="">
-            <div class="overlay">
-                <h2>Effect 11</h2>
-        <p>
-          <a href="#">LINK HERE</a>
-        </p>
+           <div class="col-sm-6">
+              <div class="row">
+              <div class="col-sm-12">
+                <p>I made functional Admin panel using codeigniter framework. User can add | delete | view users. Upload multiple images using ajax. Soft Delete functionality is used.</p>
+              </div>
+              <div class="col-sm-12">
+                <div class="project-d"><b>Tech Used: </b>HTML/CSS, Bootstrap, Codeigniter Framework</div>
+                <div class="project-d"><b>Type: </b> Github</div>
+                <div class="project-d"><b>Website: </b> www.github/prince214.com</div>
+              </div>
+              
+              </div>
             </div>
+
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 
 
